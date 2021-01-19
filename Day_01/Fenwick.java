@@ -45,7 +45,7 @@ class Fenwick{
     int n;
     
     
-    public Solution(int []arr)
+    public Fenwick(int []arr)
     {
         n = arr.length + 1;
         bit = new long[n];
